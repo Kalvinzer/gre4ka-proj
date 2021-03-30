@@ -1,0 +1,24 @@
+.card-list {
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    > div {
+        padding: 0 0px 50px 0px;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .card-list {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card-list {
+        padding: 50px 10px;
+        > div {
+            padding: 0 0px 50px 0px;
+        }
+    }
+}
